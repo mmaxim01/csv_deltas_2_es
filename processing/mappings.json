@@ -1,0 +1,9 @@
+{
+    "settings" : {
+ 	"index.mapping.total_fields.limit": 20000
+    },
+    "mappings": {
+    "dynamic_date_formats": ["MM-dd-yyy HH:mm:ss"],
+    "numeric_detection": true
+  }
+}

@@ -1,0 +1,9 @@
+yum install epel-release -y 
+yum install python-pip python-devel -y
+yum groupinstall 'development tools -y
+pip install collections json csv elasticsearch-loader pandas argparse -y 
+
+
+yum -y install python3 python3-pip python2-pip 
+yum install python3-pandas
+
