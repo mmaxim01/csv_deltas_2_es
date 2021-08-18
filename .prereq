@@ -1,6 +1,6 @@
 yum install epel-release -y 
 yum install python-pip python-devel -y
-yum groupinstall 'development tools -y
+yum groupinstall 'development tools' -y
 pip install collections json csv elasticsearch-loader pandas argparse -y 
 
 
