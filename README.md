@@ -1,6 +1,10 @@
 # csv_deltas_2_es
+ <p>
  edit .config with details for your elasticsearch instance
+ </p>
+ <p>
  csv_source="/path/to/upload/$customer"
+ </p>
  $customer is the folder where the source tar.gz file resides 
  inject_all_csv.sh will generate column deltas ( a1-a2,a2-a3,a3-a4 and b1-b2,b2-b3 etc ) 
  in the clustername folder deltas are calculated by exclusion in the if statement " if [[ $column != @(Time|Timestamp|clustername|VMType|srcfile) ]] ", add new excluded columns here
